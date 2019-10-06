@@ -10,6 +10,14 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 
+import org.d3ifcool.tablayout.DayFragment.FiveFragment;
+import org.d3ifcool.tablayout.DayFragment.FourFragment;
+import org.d3ifcool.tablayout.DayFragment.OneFragment;
+import org.d3ifcool.tablayout.DayFragment.SevenFragment;
+import org.d3ifcool.tablayout.DayFragment.SixFragment;
+import org.d3ifcool.tablayout.DayFragment.ThreeFragment;
+import org.d3ifcool.tablayout.DayFragment.TwoFragment;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.d3ifcool.tablayout;
+package org.d3ifcool.tablayout.DayFragment;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,9 +10,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import org.d3ifcool.tablayout.R;
 
-public class SevenFragment extends Fragment {
-    public SevenFragment() {
+
+public class SixFragment extends Fragment {
+    public SixFragment() {
         // Required empty public constructor
     }
 
@@ -25,6 +27,6 @@ public class SevenFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_seven, container, false);
+        return inflater.inflate(R.layout.fragment_six, container, false);
     }
 }

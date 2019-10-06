@@ -1,4 +1,4 @@
-package org.d3ifcool.tablayout;
+package org.d3ifcool.tablayout.DayFragment;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,6 +9,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import org.d3ifcool.tablayout.R;
 
 
 public class TwoFragment extends Fragment {
