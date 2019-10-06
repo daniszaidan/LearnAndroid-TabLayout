@@ -39,9 +39,16 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+//        adapter.addFragment(new OneFragment(), "Senin");
+//        adapter.addFragment(new TwoFragment(), "Selasa");
+//        adapter.addFragment(new ThreeFragment(), "Rabu");
         adapter.addFragment(new OneFragment(), "ONE");
         adapter.addFragment(new TwoFragment(), "TWO");
         adapter.addFragment(new ThreeFragment(), "THREE");
+        adapter.addFragment(new FourFragment(), "FOUR");
+        adapter.addFragment(new FiveFragment(), "FIVE");
+        adapter.addFragment(new SixFragment(), "SIX");
+        adapter.addFragment(new SevenFragment(), "SEVEN");
         viewPager.setAdapter(adapter);
     }
 
@@ -62,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
         public int getCount() {
             return mFragmentList.size();
         }
+
 
         public void addFragment(Fragment fragment, String title) {
             mFragmentList.add(fragment);
